@@ -221,18 +221,6 @@
 <script src="https://player.vimeo.com/api/player.js"></script>
 
     <script src="/static/chat.js?1"></script>
-    <script>
-        (function() {
-            var myArray = ["1384406", "1770635"];
-            var driftUserId = myArray[Math.floor(Math.random() * myArray.length)];
-            var $button = document.getElementById("schedule-meeting-button");
-            $button.addEventListener("click", function() {
-                drift.on("ready", function(api) {
-                api.scheduleMeeting(driftUserId);
-                });
-            });
-        })();
-    </script>
     <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/6539914.js"></script>
 </body>
 
